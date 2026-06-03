@@ -1,0 +1,344 @@
+year,row_variable,row_label,col_variable,col_label,correlation,abs_correlation
+1990,ahdi,AHDI,ahdi,AHDI,1.0,1.0
+1990,ahdi,AHDI,life_exp,Esperanza de vida,0.9371188046775278,0.9371188046775278
+1990,ahdi,AHDI,schooling,Educación,0.9400119523410889,0.9400119523410889
+1990,ahdi,AHDI,democracy,Democracia,0.9515330430513933,0.9515330430513933
+1990,ahdi,AHDI,gdp,PIB per cápita,0.9799563542178275,0.9799563542178275
+1990,ahdi,AHDI,gini,Desigualdad (Gini),-0.08194970453793839,0.08194970453793839
+1990,ahdi,AHDI,co2_per_capita,CO₂ per cápita,0.8426928231609454,0.8426928231609454
+1990,life_exp,Esperanza de vida,ahdi,AHDI,0.9371188046775278,0.9371188046775278
+1990,life_exp,Esperanza de vida,life_exp,Esperanza de vida,1.0,1.0
+1990,life_exp,Esperanza de vida,schooling,Educación,0.8936624782681969,0.8936624782681969
+1990,life_exp,Esperanza de vida,democracy,Democracia,0.8437266668475619,0.8437266668475619
+1990,life_exp,Esperanza de vida,gdp,PIB per cápita,0.9323816185041568,0.9323816185041568
+1990,life_exp,Esperanza de vida,gini,Desigualdad (Gini),-0.276330353500642,0.276330353500642
+1990,life_exp,Esperanza de vida,co2_per_capita,CO₂ per cápita,0.8430492298343917,0.8430492298343917
+1990,schooling,Educación,ahdi,AHDI,0.9400119523410889,0.9400119523410889
+1990,schooling,Educación,life_exp,Esperanza de vida,0.8936624782681969,0.8936624782681969
+1990,schooling,Educación,schooling,Educación,1.0,1.0
+1990,schooling,Educación,democracy,Democracia,0.8091207674210862,0.8091207674210862
+1990,schooling,Educación,gdp,PIB per cápita,0.9124960063185948,0.9124960063185948
+1990,schooling,Educación,gini,Desigualdad (Gini),-0.20501805738744397,0.20501805738744397
+1990,schooling,Educación,co2_per_capita,CO₂ per cápita,0.9023493629235345,0.9023493629235345
+1990,democracy,Democracia,ahdi,AHDI,0.9515330430513933,0.9515330430513933
+1990,democracy,Democracia,life_exp,Esperanza de vida,0.8437266668475619,0.8437266668475619
+1990,democracy,Democracia,schooling,Educación,0.8091207674210862,0.8091207674210862
+1990,democracy,Democracia,democracy,Democracia,1.0,1.0
+1990,democracy,Democracia,gdp,PIB per cápita,0.9230767045326729,0.9230767045326729
+1990,democracy,Democracia,gini,Desigualdad (Gini),0.0798899794983284,0.0798899794983284
+1990,democracy,Democracia,co2_per_capita,CO₂ per cápita,0.7121387240837211,0.7121387240837211
+1990,gdp,PIB per cápita,ahdi,AHDI,0.9799563542178275,0.9799563542178275
+1990,gdp,PIB per cápita,life_exp,Esperanza de vida,0.9323816185041568,0.9323816185041568
+1990,gdp,PIB per cápita,schooling,Educación,0.9124960063185948,0.9124960063185948
+1990,gdp,PIB per cápita,democracy,Democracia,0.9230767045326729,0.9230767045326729
+1990,gdp,PIB per cápita,gdp,PIB per cápita,1.0,1.0
+1990,gdp,PIB per cápita,gini,Desigualdad (Gini),-0.1282046006079025,0.1282046006079025
+1990,gdp,PIB per cápita,co2_per_capita,CO₂ per cápita,0.8357162658396041,0.8357162658396041
+1990,gini,Desigualdad (Gini),ahdi,AHDI,-0.08194970453793839,0.08194970453793839
+1990,gini,Desigualdad (Gini),life_exp,Esperanza de vida,-0.276330353500642,0.276330353500642
+1990,gini,Desigualdad (Gini),schooling,Educación,-0.20501805738744397,0.20501805738744397
+1990,gini,Desigualdad (Gini),democracy,Democracia,0.0798899794983284,0.0798899794983284
+1990,gini,Desigualdad (Gini),gdp,PIB per cápita,-0.1282046006079025,0.1282046006079025
+1990,gini,Desigualdad (Gini),gini,Desigualdad (Gini),1.0,1.0
+1990,gini,Desigualdad (Gini),co2_per_capita,CO₂ per cápita,-0.4039523209314387,0.4039523209314387
+1990,co2_per_capita,CO₂ per cápita,ahdi,AHDI,0.8426928231609454,0.8426928231609454
+1990,co2_per_capita,CO₂ per cápita,life_exp,Esperanza de vida,0.8430492298343917,0.8430492298343917
+1990,co2_per_capita,CO₂ per cápita,schooling,Educación,0.9023493629235345,0.9023493629235345
+1990,co2_per_capita,CO₂ per cápita,democracy,Democracia,0.7121387240837211,0.7121387240837211
+1990,co2_per_capita,CO₂ per cápita,gdp,PIB per cápita,0.8357162658396041,0.8357162658396041
+1990,co2_per_capita,CO₂ per cápita,gini,Desigualdad (Gini),-0.4039523209314387,0.4039523209314387
+1990,co2_per_capita,CO₂ per cápita,co2_per_capita,CO₂ per cápita,1.0,1.0
+1995,ahdi,AHDI,ahdi,AHDI,1.0,1.0
+1995,ahdi,AHDI,life_exp,Esperanza de vida,0.9305325830983094,0.9305325830983094
+1995,ahdi,AHDI,schooling,Educación,0.8885901685903312,0.8885901685903312
+1995,ahdi,AHDI,democracy,Democracia,0.9109455300685988,0.9109455300685988
+1995,ahdi,AHDI,gdp,PIB per cápita,0.9495290405667619,0.9495290405667619
+1995,ahdi,AHDI,gini,Desigualdad (Gini),-0.5691102715786018,0.5691102715786018
+1995,ahdi,AHDI,co2_per_capita,CO₂ per cápita,0.8002234463141001,0.8002234463141001
+1995,life_exp,Esperanza de vida,ahdi,AHDI,0.9305325830983094,0.9305325830983094
+1995,life_exp,Esperanza de vida,life_exp,Esperanza de vida,1.0,1.0
+1995,life_exp,Esperanza de vida,schooling,Educación,0.7569802047492807,0.7569802047492807
+1995,life_exp,Esperanza de vida,democracy,Democracia,0.8220061843105221,0.8220061843105221
+1995,life_exp,Esperanza de vida,gdp,PIB per cápita,0.949981678583217,0.949981678583217
+1995,life_exp,Esperanza de vida,gini,Desigualdad (Gini),-0.51107834114243,0.51107834114243
+1995,life_exp,Esperanza de vida,co2_per_capita,CO₂ per cápita,0.7165247209013689,0.7165247209013689
+1995,schooling,Educación,ahdi,AHDI,0.8885901685903312,0.8885901685903312
+1995,schooling,Educación,life_exp,Esperanza de vida,0.7569802047492807,0.7569802047492807
+1995,schooling,Educación,schooling,Educación,1.0,1.0
+1995,schooling,Educación,democracy,Democracia,0.6625223025832705,0.6625223025832705
+1995,schooling,Educación,gdp,PIB per cápita,0.8020057461046503,0.8020057461046503
+1995,schooling,Educación,gini,Desigualdad (Gini),-0.5938861614129123,0.5938861614129123
+1995,schooling,Educación,co2_per_capita,CO₂ per cápita,0.846969633919249,0.846969633919249
+1995,democracy,Democracia,ahdi,AHDI,0.9109455300685988,0.9109455300685988
+1995,democracy,Democracia,life_exp,Esperanza de vida,0.8220061843105221,0.8220061843105221
+1995,democracy,Democracia,schooling,Educación,0.6625223025832705,0.6625223025832705
+1995,democracy,Democracia,democracy,Democracia,1.0,1.0
+1995,democracy,Democracia,gdp,PIB per cápita,0.8396095559293864,0.8396095559293864
+1995,democracy,Democracia,gini,Desigualdad (Gini),-0.46519733894539317,0.46519733894539317
+1995,democracy,Democracia,co2_per_capita,CO₂ per cápita,0.6248412918809094,0.6248412918809094
+1995,gdp,PIB per cápita,ahdi,AHDI,0.9495290405667619,0.9495290405667619
+1995,gdp,PIB per cápita,life_exp,Esperanza de vida,0.949981678583217,0.949981678583217
+1995,gdp,PIB per cápita,schooling,Educación,0.8020057461046503,0.8020057461046503
+1995,gdp,PIB per cápita,democracy,Democracia,0.8396095559293864,0.8396095559293864
+1995,gdp,PIB per cápita,gdp,PIB per cápita,1.0,1.0
+1995,gdp,PIB per cápita,gini,Desigualdad (Gini),-0.45982467110179465,0.45982467110179465
+1995,gdp,PIB per cápita,co2_per_capita,CO₂ per cápita,0.7453234744309579,0.7453234744309579
+1995,gini,Desigualdad (Gini),ahdi,AHDI,-0.5691102715786018,0.5691102715786018
+1995,gini,Desigualdad (Gini),life_exp,Esperanza de vida,-0.51107834114243,0.51107834114243
+1995,gini,Desigualdad (Gini),schooling,Educación,-0.5938861614129123,0.5938861614129123
+1995,gini,Desigualdad (Gini),democracy,Democracia,-0.46519733894539317,0.46519733894539317
+1995,gini,Desigualdad (Gini),gdp,PIB per cápita,-0.45982467110179465,0.45982467110179465
+1995,gini,Desigualdad (Gini),gini,Desigualdad (Gini),1.0,1.0
+1995,gini,Desigualdad (Gini),co2_per_capita,CO₂ per cápita,-0.6426893037305612,0.6426893037305612
+1995,co2_per_capita,CO₂ per cápita,ahdi,AHDI,0.8002234463141001,0.8002234463141001
+1995,co2_per_capita,CO₂ per cápita,life_exp,Esperanza de vida,0.7165247209013689,0.7165247209013689
+1995,co2_per_capita,CO₂ per cápita,schooling,Educación,0.846969633919249,0.846969633919249
+1995,co2_per_capita,CO₂ per cápita,democracy,Democracia,0.6248412918809094,0.6248412918809094
+1995,co2_per_capita,CO₂ per cápita,gdp,PIB per cápita,0.7453234744309579,0.7453234744309579
+1995,co2_per_capita,CO₂ per cápita,gini,Desigualdad (Gini),-0.6426893037305612,0.6426893037305612
+1995,co2_per_capita,CO₂ per cápita,co2_per_capita,CO₂ per cápita,1.0,1.0
+2000,ahdi,AHDI,ahdi,AHDI,1.0,1.0
+2000,ahdi,AHDI,life_exp,Esperanza de vida,0.9118100133571546,0.9118100133571546
+2000,ahdi,AHDI,schooling,Educación,0.9226967547668657,0.9226967547668657
+2000,ahdi,AHDI,democracy,Democracia,0.9064513914413234,0.9064513914413234
+2000,ahdi,AHDI,gdp,PIB per cápita,0.9445710569574428,0.9445710569574428
+2000,ahdi,AHDI,gini,Desigualdad (Gini),-0.5393246426145801,0.5393246426145801
+2000,ahdi,AHDI,co2_per_capita,CO₂ per cápita,0.7728943309265738,0.7728943309265738
+2000,life_exp,Esperanza de vida,ahdi,AHDI,0.9118100133571546,0.9118100133571546
+2000,life_exp,Esperanza de vida,life_exp,Esperanza de vida,1.0,1.0
+2000,life_exp,Esperanza de vida,schooling,Educación,0.7822146717419732,0.7822146717419732
+2000,life_exp,Esperanza de vida,democracy,Democracia,0.7586745916801512,0.7586745916801512
+2000,life_exp,Esperanza de vida,gdp,PIB per cápita,0.8907416404852866,0.8907416404852866
+2000,life_exp,Esperanza de vida,gini,Desigualdad (Gini),-0.48498423191281687,0.48498423191281687
+2000,life_exp,Esperanza de vida,co2_per_capita,CO₂ per cápita,0.6278967827112796,0.6278967827112796
+2000,schooling,Educación,ahdi,AHDI,0.9226967547668657,0.9226967547668657
+2000,schooling,Educación,life_exp,Esperanza de vida,0.7822146717419732,0.7822146717419732
+2000,schooling,Educación,schooling,Educación,1.0,1.0
+2000,schooling,Educación,democracy,Democracia,0.7338503161022687,0.7338503161022687
+2000,schooling,Educación,gdp,PIB per cápita,0.8223323815710928,0.8223323815710928
+2000,schooling,Educación,gini,Desigualdad (Gini),-0.5225949229161512,0.5225949229161512
+2000,schooling,Educación,co2_per_capita,CO₂ per cápita,0.7429538477316123,0.7429538477316123
+2000,democracy,Democracia,ahdi,AHDI,0.9064513914413234,0.9064513914413234
+2000,democracy,Democracia,life_exp,Esperanza de vida,0.7586745916801512,0.7586745916801512
+2000,democracy,Democracia,schooling,Educación,0.7338503161022687,0.7338503161022687
+2000,democracy,Democracia,democracy,Democracia,1.0,1.0
+2000,democracy,Democracia,gdp,PIB per cápita,0.8442520267165268,0.8442520267165268
+2000,democracy,Democracia,gini,Desigualdad (Gini),-0.5016914508518051,0.5016914508518051
+2000,democracy,Democracia,co2_per_capita,CO₂ per cápita,0.7098224369226915,0.7098224369226915
+2000,gdp,PIB per cápita,ahdi,AHDI,0.9445710569574428,0.9445710569574428
+2000,gdp,PIB per cápita,life_exp,Esperanza de vida,0.8907416404852866,0.8907416404852866
+2000,gdp,PIB per cápita,schooling,Educación,0.8223323815710928,0.8223323815710928
+2000,gdp,PIB per cápita,democracy,Democracia,0.8442520267165268,0.8442520267165268
+2000,gdp,PIB per cápita,gdp,PIB per cápita,1.0,1.0
+2000,gdp,PIB per cápita,gini,Desigualdad (Gini),-0.4469362622253769,0.4469362622253769
+2000,gdp,PIB per cápita,co2_per_capita,CO₂ per cápita,0.7678521963534288,0.7678521963534288
+2000,gini,Desigualdad (Gini),ahdi,AHDI,-0.5393246426145801,0.5393246426145801
+2000,gini,Desigualdad (Gini),life_exp,Esperanza de vida,-0.48498423191281687,0.48498423191281687
+2000,gini,Desigualdad (Gini),schooling,Educación,-0.5225949229161512,0.5225949229161512
+2000,gini,Desigualdad (Gini),democracy,Democracia,-0.5016914508518051,0.5016914508518051
+2000,gini,Desigualdad (Gini),gdp,PIB per cápita,-0.4469362622253769,0.4469362622253769
+2000,gini,Desigualdad (Gini),gini,Desigualdad (Gini),1.0,1.0
+2000,gini,Desigualdad (Gini),co2_per_capita,CO₂ per cápita,-0.4980302350889237,0.4980302350889237
+2000,co2_per_capita,CO₂ per cápita,ahdi,AHDI,0.7728943309265738,0.7728943309265738
+2000,co2_per_capita,CO₂ per cápita,life_exp,Esperanza de vida,0.6278967827112796,0.6278967827112796
+2000,co2_per_capita,CO₂ per cápita,schooling,Educación,0.7429538477316123,0.7429538477316123
+2000,co2_per_capita,CO₂ per cápita,democracy,Democracia,0.7098224369226915,0.7098224369226915
+2000,co2_per_capita,CO₂ per cápita,gdp,PIB per cápita,0.7678521963534288,0.7678521963534288
+2000,co2_per_capita,CO₂ per cápita,gini,Desigualdad (Gini),-0.4980302350889237,0.4980302350889237
+2000,co2_per_capita,CO₂ per cápita,co2_per_capita,CO₂ per cápita,1.0,1.0
+2005,ahdi,AHDI,ahdi,AHDI,1.0,1.0
+2005,ahdi,AHDI,life_exp,Esperanza de vida,0.88964500067039,0.88964500067039
+2005,ahdi,AHDI,schooling,Educación,0.8747954321928647,0.8747954321928647
+2005,ahdi,AHDI,democracy,Democracia,0.8659657433886372,0.8659657433886372
+2005,ahdi,AHDI,gdp,PIB per cápita,0.9508076981791591,0.9508076981791591
+2005,ahdi,AHDI,gini,Desigualdad (Gini),-0.4862164840070583,0.4862164840070583
+2005,ahdi,AHDI,co2_per_capita,CO₂ per cápita,0.7966052913814398,0.7966052913814398
+2005,life_exp,Esperanza de vida,ahdi,AHDI,0.88964500067039,0.88964500067039
+2005,life_exp,Esperanza de vida,life_exp,Esperanza de vida,1.0,1.0
+2005,life_exp,Esperanza de vida,schooling,Educación,0.7101777297496998,0.7101777297496998
+2005,life_exp,Esperanza de vida,democracy,Democracia,0.6726980428795151,0.6726980428795151
+2005,life_exp,Esperanza de vida,gdp,PIB per cápita,0.9140481920432448,0.9140481920432448
+2005,life_exp,Esperanza de vida,gini,Desigualdad (Gini),-0.5002496303668167,0.5002496303668167
+2005,life_exp,Esperanza de vida,co2_per_capita,CO₂ per cápita,0.7034687071171785,0.7034687071171785
+2005,schooling,Educación,ahdi,AHDI,0.8747954321928647,0.8747954321928647
+2005,schooling,Educación,life_exp,Esperanza de vida,0.7101777297496998,0.7101777297496998
+2005,schooling,Educación,schooling,Educación,1.0,1.0
+2005,schooling,Educación,democracy,Democracia,0.602483993339209,0.602483993339209
+2005,schooling,Educación,gdp,PIB per cápita,0.7917958130925892,0.7917958130925892
+2005,schooling,Educación,gini,Desigualdad (Gini),-0.5260225146648339,0.5260225146648339
+2005,schooling,Educación,co2_per_capita,CO₂ per cápita,0.802534619125016,0.802534619125016
+2005,democracy,Democracia,ahdi,AHDI,0.8659657433886372,0.8659657433886372
+2005,democracy,Democracia,life_exp,Esperanza de vida,0.6726980428795151,0.6726980428795151
+2005,democracy,Democracia,schooling,Educación,0.602483993339209,0.602483993339209
+2005,democracy,Democracia,democracy,Democracia,1.0,1.0
+2005,democracy,Democracia,gdp,PIB per cápita,0.7975357312683324,0.7975357312683324
+2005,democracy,Democracia,gini,Desigualdad (Gini),-0.26329576795248955,0.26329576795248955
+2005,democracy,Democracia,co2_per_capita,CO₂ per cápita,0.6011949805887171,0.6011949805887171
+2005,gdp,PIB per cápita,ahdi,AHDI,0.9508076981791591,0.9508076981791591
+2005,gdp,PIB per cápita,life_exp,Esperanza de vida,0.9140481920432448,0.9140481920432448
+2005,gdp,PIB per cápita,schooling,Educación,0.7917958130925892,0.7917958130925892
+2005,gdp,PIB per cápita,democracy,Democracia,0.7975357312683324,0.7975357312683324
+2005,gdp,PIB per cápita,gdp,PIB per cápita,1.0,1.0
+2005,gdp,PIB per cápita,gini,Desigualdad (Gini),-0.4506427803290371,0.4506427803290371
+2005,gdp,PIB per cápita,co2_per_capita,CO₂ per cápita,0.8218948896114179,0.8218948896114179
+2005,gini,Desigualdad (Gini),ahdi,AHDI,-0.4862164840070583,0.4862164840070583
+2005,gini,Desigualdad (Gini),life_exp,Esperanza de vida,-0.5002496303668167,0.5002496303668167
+2005,gini,Desigualdad (Gini),schooling,Educación,-0.5260225146648339,0.5260225146648339
+2005,gini,Desigualdad (Gini),democracy,Democracia,-0.26329576795248955,0.26329576795248955
+2005,gini,Desigualdad (Gini),gdp,PIB per cápita,-0.4506427803290371,0.4506427803290371
+2005,gini,Desigualdad (Gini),gini,Desigualdad (Gini),1.0,1.0
+2005,gini,Desigualdad (Gini),co2_per_capita,CO₂ per cápita,-0.47657944060307755,0.47657944060307755
+2005,co2_per_capita,CO₂ per cápita,ahdi,AHDI,0.7966052913814398,0.7966052913814398
+2005,co2_per_capita,CO₂ per cápita,life_exp,Esperanza de vida,0.7034687071171785,0.7034687071171785
+2005,co2_per_capita,CO₂ per cápita,schooling,Educación,0.802534619125016,0.802534619125016
+2005,co2_per_capita,CO₂ per cápita,democracy,Democracia,0.6011949805887171,0.6011949805887171
+2005,co2_per_capita,CO₂ per cápita,gdp,PIB per cápita,0.8218948896114179,0.8218948896114179
+2005,co2_per_capita,CO₂ per cápita,gini,Desigualdad (Gini),-0.47657944060307755,0.47657944060307755
+2005,co2_per_capita,CO₂ per cápita,co2_per_capita,CO₂ per cápita,1.0,1.0
+2010,ahdi,AHDI,ahdi,AHDI,1.0,1.0
+2010,ahdi,AHDI,life_exp,Esperanza de vida,0.9076925838576784,0.9076925838576784
+2010,ahdi,AHDI,schooling,Educación,0.9103207600047104,0.9103207600047104
+2010,ahdi,AHDI,democracy,Democracia,0.9093716894271383,0.9093716894271383
+2010,ahdi,AHDI,gdp,PIB per cápita,0.9521395194660303,0.9521395194660303
+2010,ahdi,AHDI,gini,Desigualdad (Gini),-0.3927408691939655,0.3927408691939655
+2010,ahdi,AHDI,co2_per_capita,CO₂ per cápita,0.7454452713750402,0.7454452713750402
+2010,life_exp,Esperanza de vida,ahdi,AHDI,0.9076925838576784,0.9076925838576784
+2010,life_exp,Esperanza de vida,life_exp,Esperanza de vida,1.0,1.0
+2010,life_exp,Esperanza de vida,schooling,Educación,0.7951957725947288,0.7951957725947288
+2010,life_exp,Esperanza de vida,democracy,Democracia,0.7384436634338541,0.7384436634338541
+2010,life_exp,Esperanza de vida,gdp,PIB per cápita,0.9013925945488328,0.9013925945488328
+2010,life_exp,Esperanza de vida,gini,Desigualdad (Gini),-0.3624869776168274,0.3624869776168274
+2010,life_exp,Esperanza de vida,co2_per_capita,CO₂ per cápita,0.6604550554386247,0.6604550554386247
+2010,schooling,Educación,ahdi,AHDI,0.9103207600047104,0.9103207600047104
+2010,schooling,Educación,life_exp,Esperanza de vida,0.7951957725947288,0.7951957725947288
+2010,schooling,Educación,schooling,Educación,1.0,1.0
+2010,schooling,Educación,democracy,Democracia,0.7113084041289226,0.7113084041289226
+2010,schooling,Educación,gdp,PIB per cápita,0.8310256719925947,0.8310256719925947
+2010,schooling,Educación,gini,Desigualdad (Gini),-0.4368118455376568,0.4368118455376568
+2010,schooling,Educación,co2_per_capita,CO₂ per cápita,0.7873100057757909,0.7873100057757909
+2010,democracy,Democracia,ahdi,AHDI,0.9093716894271383,0.9093716894271383
+2010,democracy,Democracia,life_exp,Esperanza de vida,0.7384436634338541,0.7384436634338541
+2010,democracy,Democracia,schooling,Educación,0.7113084041289226,0.7113084041289226
+2010,democracy,Democracia,democracy,Democracia,1.0,1.0
+2010,democracy,Democracia,gdp,PIB per cápita,0.8628994578850795,0.8628994578850795
+2010,democracy,Democracia,gini,Desigualdad (Gini),-0.2862819585231302,0.2862819585231302
+2010,democracy,Democracia,co2_per_capita,CO₂ per cápita,0.6148355849292941,0.6148355849292941
+2010,gdp,PIB per cápita,ahdi,AHDI,0.9521395194660303,0.9521395194660303
+2010,gdp,PIB per cápita,life_exp,Esperanza de vida,0.9013925945488328,0.9013925945488328
+2010,gdp,PIB per cápita,schooling,Educación,0.8310256719925947,0.8310256719925947
+2010,gdp,PIB per cápita,democracy,Democracia,0.8628994578850795,0.8628994578850795
+2010,gdp,PIB per cápita,gdp,PIB per cápita,1.0,1.0
+2010,gdp,PIB per cápita,gini,Desigualdad (Gini),-0.31244081643352517,0.31244081643352517
+2010,gdp,PIB per cápita,co2_per_capita,CO₂ per cápita,0.7433876698310633,0.7433876698310633
+2010,gini,Desigualdad (Gini),ahdi,AHDI,-0.3927408691939655,0.3927408691939655
+2010,gini,Desigualdad (Gini),life_exp,Esperanza de vida,-0.3624869776168274,0.3624869776168274
+2010,gini,Desigualdad (Gini),schooling,Educación,-0.4368118455376568,0.4368118455376568
+2010,gini,Desigualdad (Gini),democracy,Democracia,-0.2862819585231302,0.2862819585231302
+2010,gini,Desigualdad (Gini),gdp,PIB per cápita,-0.31244081643352517,0.31244081643352517
+2010,gini,Desigualdad (Gini),gini,Desigualdad (Gini),1.0,1.0
+2010,gini,Desigualdad (Gini),co2_per_capita,CO₂ per cápita,-0.3294948911749111,0.3294948911749111
+2010,co2_per_capita,CO₂ per cápita,ahdi,AHDI,0.7454452713750402,0.7454452713750402
+2010,co2_per_capita,CO₂ per cápita,life_exp,Esperanza de vida,0.6604550554386247,0.6604550554386247
+2010,co2_per_capita,CO₂ per cápita,schooling,Educación,0.7873100057757909,0.7873100057757909
+2010,co2_per_capita,CO₂ per cápita,democracy,Democracia,0.6148355849292941,0.6148355849292941
+2010,co2_per_capita,CO₂ per cápita,gdp,PIB per cápita,0.7433876698310633,0.7433876698310633
+2010,co2_per_capita,CO₂ per cápita,gini,Desigualdad (Gini),-0.3294948911749111,0.3294948911749111
+2010,co2_per_capita,CO₂ per cápita,co2_per_capita,CO₂ per cápita,1.0,1.0
+2015,ahdi,AHDI,ahdi,AHDI,1.0,1.0
+2015,ahdi,AHDI,life_exp,Esperanza de vida,0.8825242431590402,0.8825242431590402
+2015,ahdi,AHDI,schooling,Educación,0.8820097204351095,0.8820097204351095
+2015,ahdi,AHDI,democracy,Democracia,0.8899296668829368,0.8899296668829368
+2015,ahdi,AHDI,gdp,PIB per cápita,0.9090564683594046,0.9090564683594046
+2015,ahdi,AHDI,gini,Desigualdad (Gini),-0.4471009670361064,0.4471009670361064
+2015,ahdi,AHDI,co2_per_capita,CO₂ per cápita,0.6972280282476767,0.6972280282476767
+2015,life_exp,Esperanza de vida,ahdi,AHDI,0.8825242431590402,0.8825242431590402
+2015,life_exp,Esperanza de vida,life_exp,Esperanza de vida,1.0,1.0
+2015,life_exp,Esperanza de vida,schooling,Educación,0.7399531550110828,0.7399531550110828
+2015,life_exp,Esperanza de vida,democracy,Democracia,0.6831949020672367,0.6831949020672367
+2015,life_exp,Esperanza de vida,gdp,PIB per cápita,0.9019287712091629,0.9019287712091629
+2015,life_exp,Esperanza de vida,gini,Desigualdad (Gini),-0.40138520201625555,0.40138520201625555
+2015,life_exp,Esperanza de vida,co2_per_capita,CO₂ per cápita,0.7106970736467547,0.7106970736467547
+2015,schooling,Educación,ahdi,AHDI,0.8820097204351095,0.8820097204351095
+2015,schooling,Educación,life_exp,Esperanza de vida,0.7399531550110828,0.7399531550110828
+2015,schooling,Educación,schooling,Educación,1.0,1.0
+2015,schooling,Educación,democracy,Democracia,0.6289167943094309,0.6289167943094309
+2015,schooling,Educación,gdp,PIB per cápita,0.7987706000674886,0.7987706000674886
+2015,schooling,Educación,gini,Desigualdad (Gini),-0.5510797623924827,0.5510797623924827
+2015,schooling,Educación,co2_per_capita,CO₂ per cápita,0.7473456559432634,0.7473456559432634
+2015,democracy,Democracia,ahdi,AHDI,0.8899296668829368,0.8899296668829368
+2015,democracy,Democracia,life_exp,Esperanza de vida,0.6831949020672367,0.6831949020672367
+2015,democracy,Democracia,schooling,Educación,0.6289167943094309,0.6289167943094309
+2015,democracy,Democracia,democracy,Democracia,1.0,1.0
+2015,democracy,Democracia,gdp,PIB per cápita,0.7388463872094311,0.7388463872094311
+2015,democracy,Democracia,gini,Desigualdad (Gini),-0.2717253235125371,0.2717253235125371
+2015,democracy,Democracia,co2_per_capita,CO₂ per cápita,0.45012353803394317,0.45012353803394317
+2015,gdp,PIB per cápita,ahdi,AHDI,0.9090564683594046,0.9090564683594046
+2015,gdp,PIB per cápita,life_exp,Esperanza de vida,0.9019287712091629,0.9019287712091629
+2015,gdp,PIB per cápita,schooling,Educación,0.7987706000674886,0.7987706000674886
+2015,gdp,PIB per cápita,democracy,Democracia,0.7388463872094311,0.7388463872094311
+2015,gdp,PIB per cápita,gdp,PIB per cápita,1.0,1.0
+2015,gdp,PIB per cápita,gini,Desigualdad (Gini),-0.4018123016220711,0.4018123016220711
+2015,gdp,PIB per cápita,co2_per_capita,CO₂ per cápita,0.766336714511736,0.766336714511736
+2015,gini,Desigualdad (Gini),ahdi,AHDI,-0.4471009670361064,0.4471009670361064
+2015,gini,Desigualdad (Gini),life_exp,Esperanza de vida,-0.40138520201625555,0.40138520201625555
+2015,gini,Desigualdad (Gini),schooling,Educación,-0.5510797623924827,0.5510797623924827
+2015,gini,Desigualdad (Gini),democracy,Democracia,-0.2717253235125371,0.2717253235125371
+2015,gini,Desigualdad (Gini),gdp,PIB per cápita,-0.4018123016220711,0.4018123016220711
+2015,gini,Desigualdad (Gini),gini,Desigualdad (Gini),1.0,1.0
+2015,gini,Desigualdad (Gini),co2_per_capita,CO₂ per cápita,-0.516511402035574,0.516511402035574
+2015,co2_per_capita,CO₂ per cápita,ahdi,AHDI,0.6972280282476767,0.6972280282476767
+2015,co2_per_capita,CO₂ per cápita,life_exp,Esperanza de vida,0.7106970736467547,0.7106970736467547
+2015,co2_per_capita,CO₂ per cápita,schooling,Educación,0.7473456559432634,0.7473456559432634
+2015,co2_per_capita,CO₂ per cápita,democracy,Democracia,0.45012353803394317,0.45012353803394317
+2015,co2_per_capita,CO₂ per cápita,gdp,PIB per cápita,0.766336714511736,0.766336714511736
+2015,co2_per_capita,CO₂ per cápita,gini,Desigualdad (Gini),-0.516511402035574,0.516511402035574
+2015,co2_per_capita,CO₂ per cápita,co2_per_capita,CO₂ per cápita,1.0,1.0
+2020,ahdi,AHDI,ahdi,AHDI,1.0,1.0
+2020,ahdi,AHDI,life_exp,Esperanza de vida,0.8637164494771685,0.8637164494771685
+2020,ahdi,AHDI,schooling,Educación,0.8693661301286506,0.8693661301286506
+2020,ahdi,AHDI,democracy,Democracia,0.8868860375251213,0.8868860375251213
+2020,ahdi,AHDI,gdp,PIB per cápita,0.8774457933013744,0.8774457933013744
+2020,ahdi,AHDI,gini,Desigualdad (Gini),-0.540462530107223,0.540462530107223
+2020,ahdi,AHDI,co2_per_capita,CO₂ per cápita,0.5886585823546736,0.5886585823546736
+2020,life_exp,Esperanza de vida,ahdi,AHDI,0.8637164494771685,0.8637164494771685
+2020,life_exp,Esperanza de vida,life_exp,Esperanza de vida,1.0,1.0
+2020,life_exp,Esperanza de vida,schooling,Educación,0.6796714159844768,0.6796714159844768
+2020,life_exp,Esperanza de vida,democracy,Democracia,0.6773052471016521,0.6773052471016521
+2020,life_exp,Esperanza de vida,gdp,PIB per cápita,0.8767453183480953,0.8767453183480953
+2020,life_exp,Esperanza de vida,gini,Desigualdad (Gini),-0.5116592448606199,0.5116592448606199
+2020,life_exp,Esperanza de vida,co2_per_capita,CO₂ per cápita,0.6766908847491332,0.6766908847491332
+2020,schooling,Educación,ahdi,AHDI,0.8693661301286506,0.8693661301286506
+2020,schooling,Educación,life_exp,Esperanza de vida,0.6796714159844768,0.6796714159844768
+2020,schooling,Educación,schooling,Educación,1.0,1.0
+2020,schooling,Educación,democracy,Democracia,0.6103055321779228,0.6103055321779228
+2020,schooling,Educación,gdp,PIB per cápita,0.7378558054095298,0.7378558054095298
+2020,schooling,Educación,gini,Desigualdad (Gini),-0.5745856662033875,0.5745856662033875
+2020,schooling,Educación,co2_per_capita,CO₂ per cápita,0.6399217958183738,0.6399217958183738
+2020,democracy,Democracia,ahdi,AHDI,0.8868860375251213,0.8868860375251213
+2020,democracy,Democracia,life_exp,Esperanza de vida,0.6773052471016521,0.6773052471016521
+2020,democracy,Democracia,schooling,Educación,0.6103055321779228,0.6103055321779228
+2020,democracy,Democracia,democracy,Democracia,1.0,1.0
+2020,democracy,Democracia,gdp,PIB per cápita,0.7114527395687457,0.7114527395687457
+2020,democracy,Democracia,gini,Desigualdad (Gini),-0.36005032573398255,0.36005032573398255
+2020,democracy,Democracia,co2_per_capita,CO₂ per cápita,0.3032481787703627,0.3032481787703627
+2020,gdp,PIB per cápita,ahdi,AHDI,0.8774457933013744,0.8774457933013744
+2020,gdp,PIB per cápita,life_exp,Esperanza de vida,0.8767453183480953,0.8767453183480953
+2020,gdp,PIB per cápita,schooling,Educación,0.7378558054095298,0.7378558054095298
+2020,gdp,PIB per cápita,democracy,Democracia,0.7114527395687457,0.7114527395687457
+2020,gdp,PIB per cápita,gdp,PIB per cápita,1.0,1.0
+2020,gdp,PIB per cápita,gini,Desigualdad (Gini),-0.5369254461379459,0.5369254461379459
+2020,gdp,PIB per cápita,co2_per_capita,CO₂ per cápita,0.6511041620938172,0.6511041620938172
+2020,gini,Desigualdad (Gini),ahdi,AHDI,-0.540462530107223,0.540462530107223
+2020,gini,Desigualdad (Gini),life_exp,Esperanza de vida,-0.5116592448606199,0.5116592448606199
+2020,gini,Desigualdad (Gini),schooling,Educación,-0.5745856662033875,0.5745856662033875
+2020,gini,Desigualdad (Gini),democracy,Democracia,-0.36005032573398255,0.36005032573398255
+2020,gini,Desigualdad (Gini),gdp,PIB per cápita,-0.5369254461379459,0.5369254461379459
+2020,gini,Desigualdad (Gini),gini,Desigualdad (Gini),1.0,1.0
+2020,gini,Desigualdad (Gini),co2_per_capita,CO₂ per cápita,-0.5315251808615322,0.5315251808615322
+2020,co2_per_capita,CO₂ per cápita,ahdi,AHDI,0.5886585823546736,0.5886585823546736
+2020,co2_per_capita,CO₂ per cápita,life_exp,Esperanza de vida,0.6766908847491332,0.6766908847491332
+2020,co2_per_capita,CO₂ per cápita,schooling,Educación,0.6399217958183738,0.6399217958183738
+2020,co2_per_capita,CO₂ per cápita,democracy,Democracia,0.3032481787703627,0.3032481787703627
+2020,co2_per_capita,CO₂ per cápita,gdp,PIB per cápita,0.6511041620938172,0.6511041620938172
+2020,co2_per_capita,CO₂ per cápita,gini,Desigualdad (Gini),-0.5315251808615322,0.5315251808615322
+2020,co2_per_capita,CO₂ per cápita,co2_per_capita,CO₂ per cápita,1.0,1.0

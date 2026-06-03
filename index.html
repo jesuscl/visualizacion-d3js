@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización de Datos: El Desarrollo Humano en Perspectiva</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>    
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>🌍 El Bienestar Humano en Perspectiva: Más Allá del Dinero</h1>
+        <p class="subtitle">Una exploración visual de la relación entre desarrollo humano, desigualdad y sostenibilidad (1995-2020)</p>
+    </header>
+
+    <!-- ================= ACTO I: EL PANORAMA GENERAL ================= -->
+    <div class="section">
+        <h2>📈 Acto I: El Panorama General</h2>
+        <h3>¿Cómo ha evolucionado el bienestar humano en las diferentes regiones del mundo durante las últimas décadas?</h3>
+        <div class="line-chart-wrapper">
+            <div id="line-chart-container" class="chart-container"></div>
+            <div id="line-legend" class="line-legend-container"></div>
+        </div>
+        <p class="insight">El gráfico muestra una clara divergencia: mientras que Europa, Oceanía y América del Norte han mantenido un desarrollo alto y estable, otras regiones como África y Asia han experimentado un crecimiento notable, especialmente a partir del cambio de milenio.</p>
+    </div>
+
+    <!-- ================= ACTO II: EL TRILEMA DEL DESARROLLO ================= -->
+    <div class="section">
+        <h2>🎈 Acto II: El Trilema del Desarrollo</h2>
+        <h3>¿Existe una relación entre el desarrollo humano, la desigualdad y la sostenibilidad ambiental?</h3>
+        
+        <div class="controls">
+            <button id="play-button">▶ Play</button>
+            <div class="year-slider">
+                <span>📅 Año:</span>
+                <input type="range" id="year-slider" min="1990" max="2020" step="5" value="2010">
+                <span id="year-value" class="year-label">2010</span>
+            </div>
+        </div>
+        
+        <!-- NUEVO: Contenedor del mapa -->
+        <div id="map-container" class="map-container"></div>
+        <div id="map-legend" class="map-legend-container"></div>
+        
+        <div id="bubble-chart-container" class="chart-container"></div>
+        
+        <div class="legend">
+            <div><span class="legend-color" style="background: #1b7837;"></span> Baja Desigualdad (Gini bajo)</div>
+            <div><span class="legend-color" style="background: #ffffbf;"></span> Desigualdad Media</div>
+            <div><span class="legend-color" style="background: #d73027;"></span> Alta Desigualdad (Gini alto)</div>
+            <div><span class="legend-color" style="background: #cccccc; border-radius: 50%;"></span> Tamaño ∝ CO₂ per cápita</div>
+        </div>
+        <p class="insight">Cada burbuja es un país. Su posición vertical es el nivel de desarrollo humano (AHDI). El color refleja la desigualdad (Gini) y el tamaño, las emisiones de CO₂ per cápita. Usa el control deslizante para viajar en el tiempo. <strong>Haz clic en cualquier burbuja para ver su historia en detalle (Acto III).</strong></p>
+        <div id="selected-country-message" class="country-selector"></div>
+    </div>
+
+    <!-- ================= ACTO III: EL DETALLE ================= -->
+    <div class="section" id="detail-section" style="display: none;">
+        <h2>📊 Acto III: El Detalle</h2>
+        <h3>Evolución completa de las variables para <span id="selected-country-name">...</span></h3>
+        <div class="detail-chart-wrapper">
+            <div id="detail-chart-container" class="chart-container" style="min-height: 400px;"></div>
+            <div id="detail-legend" class="detail-legend-container"></div>
+        </div>
+        <p class="insight">Este gráfico muestra la evolución a lo largo del tiempo de las tres variables clave: Desarrollo Humano (AHDI), Desigualdad (Gini) y Emisiones de CO₂ per cápita.</p>
+    </div>
+
+    <!-- ================= ACTO IV: MATRIZ DE CORRELACIÓN ================= -->
+    <div class="section">
+        <h2>🔗 Acto IV: Las Relaciones Ocultas</h2>
+        <h3>¿Qué variables están más relacionadas entre sí? ¿El desarrollo económico siempre implica desarrollo humano?</h3>
+        
+        <div class="controls">
+            <label for="corr-year-select">Seleccionar año:</label>
+            <select id="corr-year-select">
+                <option value="1995">1995</option>
+                <option value="2000">2000</option>
+                <option value="2005">2005</option>
+                <option value="2010">2010</option>
+                <option value="2015" selected>2015</option>
+                <option value="2020">2020</option>
+            </select>
+            
+            <div class="legend">
+                <span>Correlación:</span>
+                <div class="legend-gradient"></div>
+                <span>-1.0</span>
+                <span>0</span>
+                <span>+1.0</span>
+            </div>
+        </div>
+        
+        <div id="correlation-container" class="chart-container"></div>
+        <p class="insight"><strong>Interpretación:</strong> Los tonos azules indican correlación positiva (las variables aumentan juntas), los rojos correlación negativa (una aumenta mientras la otra disminuye). Observa cómo el PIB se correlaciona fuertemente con el AHDI, mientras que la desigualdad (Gini) tiende a correlacionarse negativamente con el desarrollo.</p>
+    </div>
+
+    <footer>
+        <p>Fuentes: Prados de la Escosura (AHDI), World Bank (Gini), Global Carbon Project (CO₂) | Visualización interactiva con D3.js</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
